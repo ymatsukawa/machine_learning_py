@@ -6,7 +6,7 @@ from perceptron import Perceptron
 from matplotlib.colors import ListedColormap
 
 current_dir = p.dirname(p.realpath(__file__))
-data_frame = pd.read_csv(p.join(current_dir, './iris.data'), header=None)
+data_frame = pd.read_csv(p.join(current_dir, './iris.csv'), header=None)
 
 ## target data
 y = data_frame.iloc[0:100, 4].values
