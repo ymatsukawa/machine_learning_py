@@ -26,7 +26,7 @@ class Perceptron:
     random_state: int
         random generator seed for random weight
     """
-    def __init__(self, eta, data_num, random_state):
+    def __init__(self, eta=0.01, data_num=50, random_state=1):
         self.eta = eta
         self.data_num = data_num
         self.random_state = random_state
@@ -57,13 +57,13 @@ class Perceptron:
     """
     def fit(self, X, y):
         # https://numpy.org/doc/1.13/reference/generated/numpy.random.RandomState.normal.html#numpy.random.RandomState.normal
-        rand_generator = np.random.RandomStae(self.random_state)
+        rand_generator = np.random.RandomState(self.random_state)
         self._w = rand_generator.normal(loc=0.0, scale=0.01, size=1 + X.shape[1])
         
         self._errors = []
         for _ in range(self.data_num):
             errors = 0
-            for xi, target in (X, y):
+            for xi, target in zip(X, y):
                 """
                 update weights [w1, w2, ... wn]
                 ref.
@@ -75,7 +75,7 @@ class Perceptron:
                 self._w[0] += update_w
                 errors += int(update_w != 0.0)
             self._errors.append(errors)
-        
+
         return self
     
     """
@@ -91,7 +91,7 @@ class Perceptron:
         https://numpy.org/doc/1.13/reference/generated/numpy.dot.html#numpy.dot
     """
     def net_input(self, X):
-        return np.dot(X, self._w[1:]) + self._w[0])
+        return np.dot(X, self._w[1:]) + self._w[0]
         
     
     """
