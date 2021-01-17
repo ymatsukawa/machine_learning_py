@@ -83,7 +83,7 @@ class Perceptron:
     
     Returns:
         1 or -1
-        value is depends on net_input result.
+        value is depended on `net_input` result.
 
     Reference:
         https://numpy.org/doc/stable/reference/generated/numpy.where.html
