@@ -1,6 +1,6 @@
-# learning machine larn with python
+# learning machine larning with python
 
-notbook of personal learning of machine learning with python
+notebook of personal learning of machine learning with python
 
 ## requirements
 
