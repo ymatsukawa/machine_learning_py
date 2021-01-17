@@ -72,7 +72,7 @@ class Perceptron:
         https://numpy.org/doc/1.13/reference/generated/numpy.dot.html#numpy.dot
     """
     def net_input(self, X):
-        return np.dot(X, self._w[1:], + self._w[0])
+        return np.dot(X, self._w[1:]) + self._w[0])
         
     
     """
