@@ -8,6 +8,13 @@ notebook of personal learning of machine learning with python
 * docker >= 19.03
 * docker-compose >= 1.26.0
 
+## build and run
+
+```
+$ docker-compose build
+$ docker-compose run app python3 src/path/to/main.py
+```
+
 ## LICENSE
 
 MIT
