@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 """
 choose feature value and gather traing sample
 """
-# gather tarininng No.1
+# gather tarininng sample No.1
 ## get Iris data from scikitlearn
 iris = datasets.load_iris()
 # feature value is chosen as inde-2 and index-3 of iris data
