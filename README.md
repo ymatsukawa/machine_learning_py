@@ -15,6 +15,10 @@ $ docker-compose build
 $ docker-compose run app python3 src/path/to/main.py
 ```
 
+## Glossary
+
+[other page](./GLOSSARY.md)
+
 ## LICENSE
 
 MIT
