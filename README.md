@@ -19,6 +19,10 @@ $ docker-compose run app python3 src/path/to/main.py
 
 [other page](./GLOSSARY.md)
 
+## Essendce
+
+[other page](./ESSENCE.md)
+
 ## LICENSE
 
 MIT
