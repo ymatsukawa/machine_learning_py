@@ -21,7 +21,7 @@ Finding set of weights and biases that minimize the cost.
 
 Cost means "how wrong the model is in terms of its ability to estimate the relationship between input and output data"
 
-https://towardsdatascience.com/machine-learning-fundamentals-via-linear-regression-41a5d11f5220
+* https://towardsdatascience.com/machine-learning-fundamentals-via-linear-regression-41a5d11f5220
 
 ## Grdient descending
 
