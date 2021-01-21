@@ -35,12 +35,44 @@ Optimization algorithm minimizing object(function) iteratively by updating param
 
 ## Odds ratio
 
-TBD
+Measure of how strongly an event is associated with two factors.
+
+```
+f(p) = p / (1 - p)
+
+0 <= p < 1
+p is stochastic variable
+```
+
+* https://www.ncbi.nlm.nih.gov/books/NBK431098/
+* https://medium.com/@analyttica/odds-ratio-a8315f159307
 
 ## Logit function
 
-TBD
+inverse of odds ratio function.
+
+```
+f(p) = log(p / (1 - p))
+
+0 <= p < 1
+p is stochastic variable
+```
+
+* https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/logoddra.htm
+* https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/logoddra.htm
 
 ## Sigmoid function
 
-TBD
+Returns value between 0 and 1. Useful to binary classification.
+
+```
+f(x) = 1 / (1 + exp(-1))
+```
+
+For example, when determine image of animal is dog or not, use this.
+
+* value is greater or equal to 0.51, may be it's dog.
+* less than 0.51, it may not be dog
+
+* https://medium.com/@gabriel.mayers/sigmoid-function-explained-in-less-than-5-minutes-ca156eb3049a
+* https://www.sciencedirect.com/topics/computer-science/sigmoid-function
