@@ -1,3 +1,5 @@
+# Related Perceptron
+
 ## Optimization problem
 
 Finding best "workable" or "recommended" solution.
@@ -28,3 +30,17 @@ Optimization algorithm minimizing object(function) iteratively by updating param
 * https://ruder.io/optimizing-gradient-descent/
 * https://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html
 * https://medium.com/swlh/gradient-descent-algorithm-3d3ba3823fd4
+
+# Related logistic regression
+
+## Odds ratio
+
+TBD
+
+## Logit function
+
+TBD
+
+## Sigmoid function
+
+TBD
