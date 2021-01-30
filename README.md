@@ -19,7 +19,7 @@ $ docker-compose run app python3 src/path/to/main.py
 
 [other page](./GLOSSARY.md)
 
-## Essence
+## Machine Learning Essence
 
 [other page](./ESSENCE.md)
 
