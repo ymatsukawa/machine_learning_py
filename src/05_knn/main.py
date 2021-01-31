@@ -21,7 +21,7 @@ def income_label(row):
     else:
         if(age <= 30):
             return 2 # 'reborn'
-        elif(30 < age and 60 <= age):
+        elif(30 < age and age <= 60):
             return 3 # 'strategist'
         else:
             return 4 # 'waiting new age'
