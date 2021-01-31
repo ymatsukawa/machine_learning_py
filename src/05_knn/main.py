@@ -48,7 +48,7 @@ labels = df.loc[:, LABEL_COL].values
 knn = KNeighborsClassifier(n_neighbors=3)
 knn.fit(data, labels)
 
-plot_decision_regions(data, labels, test_idx=4, clf=knn)
+plot_decision_regions(data, labels, clf=knn)
 plt.xlabel('age')
 plt.ylabel('final income weight')
 plt.savefig(p.join(current_dir, './age-incomeweight_with_decision_regions.png'))
