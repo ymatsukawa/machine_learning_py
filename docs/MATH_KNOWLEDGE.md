@@ -4,8 +4,6 @@ In statistics, average and "mean" are "arithmetic average".
 
 (In this doc, mean is used as "arithmetic average")
 
-It calculates for those set of vlaues which are more or less same.
-
 ```
 (Sum of data number) / (Total quantity of data)
 
@@ -37,7 +35,7 @@ ref.
 
 # variance
 
-It tells how measured data distance from the mean value of the dataset.
+It tells how measured data get distance from the mean value of the dataset.
 
 ```
 r^2 = Sigma{ (X - m)^2 } / N
