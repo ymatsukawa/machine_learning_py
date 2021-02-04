@@ -17,11 +17,11 @@ $ docker-compose run app python3 src/path/to/main.py
 
 ## Glossary
 
-[other page](./GLOSSARY.md)
+[other page](./docs/GLOSSARY.md)
 
 ## Machine Learning Essence
 
-[other page](./ESSENCE.md)
+[other page](./docs/ESSENCE.md)
 
 ## LICENSE
 
