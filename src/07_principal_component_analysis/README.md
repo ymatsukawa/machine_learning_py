@@ -7,6 +7,6 @@
 
 When (2) to (4) is created by library, just prepare (1) by program.
 
-## PCA data
+## PCA analyzed wine data
 
 ![pca](./pca.png)
