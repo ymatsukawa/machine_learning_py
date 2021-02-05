@@ -15,3 +15,11 @@ GPL 2
 from: https://www.kaggle.com/mastmustu/income
 
 CC0: Public Domain
+
+# wine.csv
+
+from: https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data
+
+description: https://archive.ics.uci.edu/ml/datasets/Wine
+
+[UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)

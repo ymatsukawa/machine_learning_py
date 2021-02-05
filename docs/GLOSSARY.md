@@ -76,3 +76,7 @@ For example, when determine image of animal is dog or not, use this.
 
 * https://medium.com/@gabriel.mayers/sigmoid-function-explained-in-less-than-5-minutes-ca156eb3049a
 * https://www.sciencedirect.com/topics/computer-science/sigmoid-function
+
+## stratify
+
+TBD
