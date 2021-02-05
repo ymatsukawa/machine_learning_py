@@ -21,7 +21,7 @@ x = X_pca[:, 0]
 y = X_pca[:, 1]
 
 plt.figure(figsize=(8, 8))
-plt.scatter(x, y)
+plt.scatter(x, y, c=list(df_wine.iloc[:, 0]))
 plt.xlabel("PC1")
 plt.ylabel("PC2")
 plt.savefig(p.join(current_dir, './pca.png'))
