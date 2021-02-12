@@ -1,6 +1,6 @@
 # silhouette analysis
 
-In order to decide k of k-meaning, use silhouette analysis like [elobw method](../09_elbow_method/README.md).
+In order to decide k of k-meaning, use silhouette analysis like [elobw method](../02_elbow_method/README.md).
 
 When thickness of each silhouette is
 
