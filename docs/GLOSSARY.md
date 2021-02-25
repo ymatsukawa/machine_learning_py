@@ -79,4 +79,7 @@ For example, when determine image of animal is dog or not, use this.
 
 ## stratify
 
-TBD
+In order to decrease bias of test set, slice or divide more sample from test set.
+
+* https://medium.com/@dhivyarao94/stratified-sampling-machine-learning-b622189ae77
+* https://medium.com/analytics-vidhya/stratified-sampling-in-machine-learning-f5112b5b9cfe
