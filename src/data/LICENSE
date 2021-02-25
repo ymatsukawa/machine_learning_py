@@ -1,24 +1,24 @@
 # iris.csv
 
-from: https://archive.ics.uci.edu/ml/datasets/Iris
+https://archive.ics.uci.edu/ml/datasets/Iris
 
-Open Data Common License
+LICENSE: `Open Data Common License`
 
 # fish.csv
 
-from: https://www.kaggle.com/aungpyaeap/fish-market
+https://www.kaggle.com/aungpyaeap/fish-market
 
-GPL 2
+LICENSE: `GPL 2`
 
 # income.csv
 
-from: https://www.kaggle.com/mastmustu/income
+https://www.kaggle.com/mastmustu/income
 
-CC0: Public Domain
+LICENSE: `CC0: Public Domain`
 
 # wine.csv
 
-from: https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data
+https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data
 
 description: https://archive.ics.uci.edu/ml/datasets/Wine
 
